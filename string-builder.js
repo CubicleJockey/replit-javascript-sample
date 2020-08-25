@@ -1,7 +1,7 @@
-export default class StringBuilder{
-    constructor(startText){
-        this.#content = [];
+class StringBuilder{
+    #content = [];
 
+    constructor(startText){
         append(startText);
     }
 
@@ -21,6 +21,8 @@ export default class StringBuilder{
     }
 
     toString(){
-        this#conent.join('');   
+        this.#content.join('');   
     }
 }
+
+module.exports = { StringBuilder };
