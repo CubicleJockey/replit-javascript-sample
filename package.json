@@ -1,0 +1,24 @@
+{
+  "name": "replit-javascript-sample",
+  "version": "1.0.0",
+  "description": "'JavaScript GitHub Repl.It sample'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CubicleJockey/replit-javascript-sample.git"
+  },
+  "keywords": [
+    "replit",
+    "github",
+    "javascript"
+  ],
+  "author": "André Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CubicleJockey/replit-javascript-sample/issues"
+  },
+  "homepage": "https://github.com/CubicleJockey/replit-javascript-sample#readme"
+}
