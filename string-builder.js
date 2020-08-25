@@ -1,10 +1,8 @@
-class StringBuilder{
+export default class StringBuilder{
     constructor(startText){
         this.#content = [];
 
-        typeof startText === 'string' 
-            ? this.#content.push(startText) 
-            : this.#content.push(startText.toString());
+        append(startText);
     }
 
     appendLine(text){
@@ -16,5 +14,13 @@ class StringBuilder{
         typeof text === 'string' 
             ? this.#content.push(text) 
             : this.#content.push(text.toString());
+    }
+
+    clear(){
+        this.#content = [];
+    }
+
+    toString(){
+        this#conent.join('');   
     }
 }
